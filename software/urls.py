@@ -7,7 +7,6 @@ urlpatterns = [
   
 
     #*************************  client  ****************************
-    #path('base_client',views.base_client),
     path('client_Dashboard',views.client_Dashboard),
     path('client_project_card',views.client_project_card),
     path('client_company_card',views.client_company_card),

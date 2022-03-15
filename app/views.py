@@ -6,9 +6,6 @@ from django.shortcuts import render
 def client_Dashboard(request):
     return render(request,'client\client_Dashboard.html')
 
-#def base_client(request):
-    #return render(request,'client\base_client.html')
-
 def client_project_card(request):
     return render(request,'client\client_project_card.html')
 
