@@ -1,0 +1,48 @@
+{%extends 'client\base_client.html'%}
+{%load static%}
+{%block content%}
+
+<div class="row justify-content-center pt-5">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-6 grid-margin my-auto">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+              <h3>Projects</h3>
+            </div>
+          </div>
+          <div class="table-responsive">
+            <table class="table " id="myTable">
+              <thead>
+                <tr data-href="#">
+                  <th>slno</th>
+                  <th>projects</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+                <tr data-href="#">
+                  <td>1</td>
+                  <td>Pepsi core project</td>
+                </tr>
+
+                <tr data-href="#">
+                    <td>2</td>
+                    <td>Pepsi main project</td>
+                </tr>
+
+                <tr data-href="#">
+                    <td>3</td>
+                    <td>Pepsi sub project</td>
+                </tr>
+                 
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+{% endblock %}
+
